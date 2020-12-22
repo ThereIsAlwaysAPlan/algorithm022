@@ -10,7 +10,7 @@ class Solution:
     # 找朋友
     def findMinMinutes(self, n, k):
         if n >= k :
-            return k -n
+            return k -n 
         else:
             # time1 = int(math.log2(k/n)) # 计算时间，向上取整
             # new_n = n * math.pow(time1,2) # 计算新的N，仍<K
