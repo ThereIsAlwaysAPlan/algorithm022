@@ -9,8 +9,8 @@
 class Solution:
     # 找朋友
     def findMinMinutes(self, n, k):
-        if n >= k :
-            return k -n 
+        if n >= k:
+            return k - n
         else:
             # time1 = int(math.log2(k/n)) # 计算时间，向上取整
             # new_n = n * math.pow(time1,2) # 计算新的N，仍<K
@@ -23,8 +23,8 @@ class Solution:
             while True:
                 tmp = set()
                 # 遍历当前分钟能到达的节点
-                for x in d[i]:       
-                    if x - 1 == k or x+1 == k or 2*x ==k :
+                for x in d[i]:
+                    if x - 1 == k or x+1 == k or 2*x == k:
                         return i + 1
                     else:
                         # skip 已访问过的节点
@@ -39,8 +39,9 @@ class Solution:
                             s.add(2*x)
                 i += 1
                 d[i] = tmp
-                        
+
             return -1
 
+
 if __name__ == "__main__":
-    print(Solution().findMinMinutes(3,32))
+    print(Solution().findMinMinutes(3, 32))
