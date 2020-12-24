@@ -5,12 +5,12 @@
 # @CreationDate: 2020-12-14 10:51:57
 # @Author: xiaochuan
 # @Description: 选择餐馆
-
+from typing import List, Dict, Tuple, Union
 # 测试用例
 restaurants = [[0,4,1,40,10],[1,8,0,50,5],[2,8,1,30,4],[3,10,0,10,3],[4,8,1,15,1]]
 filters = [0, 40, 10]
 class Solution:
-    def filterRestaurants(self, restaurants, filters):
+    def filterRestaurants(self, restaurants: List[List[int]], filters: List[int]) -> List[int]:
         # results = []
         # # 筛选符合条件的餐馆
         # results = self.choose_restruants(restaurants,filters)
