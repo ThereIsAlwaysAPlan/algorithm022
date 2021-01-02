@@ -6,7 +6,7 @@ class Solution:
         f1,f2,f3 = 1,2,3
         if n < 3 : return n
         else:
-            for i in range(3,n+1):
+            for _ in range(3,n+1):
                 f3 = f2 + f1
                 f1 = f2
                 f2 = f3
