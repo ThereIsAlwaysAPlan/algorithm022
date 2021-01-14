@@ -1,3 +1,4 @@
+import math
 class Solution:
     def mySqrt(self, x: int) -> int:
         # 二分 单调 存在上下界，index
@@ -12,11 +13,13 @@ class Solution:
         # return right
 
         # 牛顿迭代法
-        r = x
-        while r*r>x:
-            r = (r+x/r)/2
-        return int(r)            
+        # r = x
+        # while r*r>x:
+        #     r = (r+x/r)/2
+        # return int(r)   
+
+        return int(math.exp(0.5*math.log(x)))         
 
 
 if __name__ == "__main__":
-    print(Solution().mySqrt(16))
+    print(Solution().mySqrt(3))
