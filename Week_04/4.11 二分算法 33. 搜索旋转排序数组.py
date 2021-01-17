@@ -30,15 +30,28 @@ class Solution:
         #             else:
         #                 left = mid + 1 
         
+
+        # 二分的定义是对于一个有序或者部分有序数组，通过取中值比对目标数值，每次筛除一半数据，而对另一半数据下一次筛除，
+        # 要牢记的一点是选择舒适区，对于容易归纳的部分，我们首先提取出来，作为分割的一半，那么剩下的一半，无论多么复杂，也只是属于"else"的情况
+        # 总体思路：
+        # 考虑 mid位置，在左边的升序数组还是在右边的升序数组
+        # 再只考虑target在start ~ mid(若在左边) 或者 mid ~ end(若在右边)的请况即可排除其它情况
         while left <= right:
             mid = left + (right-left)//2
-            if target == nums[mid]:
+            if nums[mid] == target:
                 return mid
-            elif (nums[0] <= target) ^ (target < nums[mid]) ^ (nums[mid] <= nums[0]):
-                left = mid - 1
             else:
-                right = mid + 1
-
+                # 根据mid在旋转点左右哪边进行划分
+                if nums[0] <= nums[mid]:
+                    if nums[0] <= target < nums[mid]:
+                        right = mid - 1
+                    else:
+                        left = mid + 1
+                else:
+                    if nums[mid] < target <= nums[-1]:
+                        left = mid + 1
+                    else:
+                        right = mid - 1
         return -1
         
 
