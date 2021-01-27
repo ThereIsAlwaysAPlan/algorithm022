@@ -63,7 +63,7 @@ class Solution:
         # return list(res)
 
         # 借用字典树的核心思想（但并未创建字典树），直接遍历所有单词，dfs时按照单词字母顺序遍历
-        # 深搜+词遍历（Trie）
+        # 深搜+词遍历（Trie）time:O(l_words*l_word*C) l_words :len(words) l_word:len(word) C:len(d[word[0]])  space:O(nm)
         m,n = len(board),len(board[0])
         if m * n == 0 or not words:
             return []
