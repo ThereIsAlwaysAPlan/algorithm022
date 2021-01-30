@@ -55,4 +55,34 @@ class Solution:
         # return 0
                         
         # DFS 改变一个字符，改变后的word如果在wordList中，那就遍历下一层，递归结束条件，word=endWord
+                # DFS 改变一个字符，改变后的word如果在wordList中，那就遍历下一层，递归结束条件，word=endWord
+        if endWord not in wordList:
+            return 0
+        
+        mi = float('inf') # 保存最短路径
+        wordList = set(wordList)
+        def dfs(level,word):
+            nonlocal mi
+            # terminator
+            if word == endWord:
+                if level < mi:
+                    mi = level + 1
+                return 
+            
+            # process
+            # 剪枝 : 递归深度超过当前最短路径，说明当前路径肯定不是最短的，返回
+            if level > mi:
+                return 
+            for i in range(len(word)):
+                for c in [chr(i) for i in range(97,123)]:
+                    if word[i] != c:
+                        new_word = word[:i] + c + word[i+1:]
+                        if new_word in wordList:
+                            # drill down
+                            wordList.remove(new_word)
+                            dfs(level+1,new_word)
+                            # revert
+                            wordList.add(new_word)
+        dfs(0,beginWord)
+        return mi if mi != float('inf') else 0
 
