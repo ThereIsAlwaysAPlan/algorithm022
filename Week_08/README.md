@@ -18,7 +18,7 @@ x ^ x = 0s
 c = a ^ b => a ^ c = b,b ^ c = a
 a^b^c = (a^b)^c = a^(b^c)
 
-# 位运算（update指定位置）
+# 位运算（update/find指定位置）
 获取第n位的值(0 or 1): (x >> n) & 1
 获取第n位的幂值：       x &（1 << n）
 
