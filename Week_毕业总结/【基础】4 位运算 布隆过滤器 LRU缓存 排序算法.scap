@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="1001E145-27CE-4EF4-83B4-0D2652A60162" Version="1.1">
+   <Notes>
+      <Note Width="752.344" FontSize="12" ID="1" Position="25.8,15.2" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,6</FormatRange>
+            <FormatRange Bold="Yes">8,28</FormatRange>
+            <FormatRange Bold="Yes">365,22</FormatRange>
+            <FormatRange Bold="Yes">663,7</FormatRange>
+         </Formatting>
+         <String>位运算知识点
+
+# 与（&amp;） 或（|）非（~）异或（^）中基础规则总结：
+与（&amp;）：
+x &amp; 1 = x  衍生用法：1：获取二进制第x位的值（0 or 1） 2：比较奇偶 x为奇，则其二进制表示末尾为1，x&amp;1=1，为偶，x&amp;1=0
+x &amp; 0 = 0  衍生用法：将x中的某一位或者某几位 置0
+x &amp; x = x
+或（|）：
+x | 1 = 1  衍生用法：将x中的某一位或者某几位 置1
+x | 0 = x
+x | x = x
+非（~）：
+x &amp; ~x = 0
+x | ~x = 1
+x ^ ~x = 1s (全1)
+异或（^）：
+x ^ 0s = x
+x ^ 1s = ~x
+x ^ x = 0s
+c = a ^ b => a ^ c = b,b ^ c = a
+a^b^c = (a^b)^c = a^(b^c)
+
+
+# 位运算（update/find指定位置）
+获取第n位的值(0 or 1): (x >> n) &amp; 1
+获取第n位的幂值：       x &amp;（1 &lt;&lt; n）
+
+
+将第n位的值置为1：      x | (1 &lt;&lt; n)
+将第n位的值置为0:       x &amp; (~(1 &lt;&lt; n)) 思路：x &amp; (111011111) = x &amp; ~(000100000)
+
+
+将最高位至第n位清0：x &amp; ((1 &lt;&lt; n)-1)  思路：x &amp; (00011111) = x &amp; (00100000 - 1)
+将x右边n位清0： x &amp; (~0 &lt;&lt; n)  思路：x &amp; 111000000 
+
+
+# 实战位运算
+判断奇偶：
+x % 2 == 1（0） =>   x &amp; 1 == 1（0）
+整除2：
+x // 2   =>  x >> 1  (二分查找)
+清零最低位的1：（N皇后中，表示该位置被占用）
+x = x &amp; (x - 1)  例：8 &amp; 7 = 1000 &amp; 0111 = 0，8的最低位的1被清零
+得到最低位的1：（N皇后中，得到一个没有被皇后占据的位置）
+x&amp;-x
+
+</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Fleet Transport" ID="FBC9B2CD-740E-49F4-B95D-54F2449D308C" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Mobile Infantry" ID="1A838023-08CC-48BD-88AD-C5CEC32C11F2" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Advance Scout" ID="9EE3737F-EBC4-4C99-8654-48946D735237" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Counter-Intelligence" ID="2A1E111C-3B02-41C4-865E-84A9A2165907" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Fleet Destroyers" ID="48ED980E-F878-47BD-B1D3-428B441B7890" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Engineering Corps" ID="204B8E9E-72A1-4162-AD54-D7E40517FA87" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Military Intelligence" ID="A80BD0F3-631A-419D-AE05-7F66DC76BA78" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.960784 0.568627</BackgroundColor>
+      <DefaultFont>Consolas</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+      <LeftToRight>Yes</LeftToRight>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>

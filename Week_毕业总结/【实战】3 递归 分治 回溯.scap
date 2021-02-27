@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="96C1EC28-B8E6-41A1-A3D3-09CCCDD80AB4" Version="1.1">
+   <Notes>
+      <Note Width="65.8936" FontSize="12" ID="1" Position="38.3,120.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Link="https://leetcode-cn.com/problems/permutations/">0,7</FormatRange>
+         </Formatting>
+         <String>46. 全排列</String>
+      </Note>
+      <Note Width="282.812" ID="2" Position="39.8,146.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+         </Appearance>
+         <ImageData Type="png" Name="">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</ImageData>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="3" Position="50.0,462.1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路1：递归
+用一个数组存储bool，下标对应数字，第一层有n种选择，第二层有n-1种选择，第n层只有一种选择
+递归结束条件：level>length
+time:O(n*n!) space:O(n)</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="4" Position="32.8,727.0" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路2：递归+剪枝
+将已选择的放在左边，始终递归遍历未选择的部分；
+其实意思就是 数组中的任意一个数都可以排在任意位置，这里递归是将当前数组中的任意个数放置在首位，然后对剩余数组做同样的操作</String>
+      </Note>
+      <Note Width="146.094" FontSize="12" ID="6" Position="29.7,979.3" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路4：
+将任何一个数作为第一个数，然后递归剩余的数</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="7" Position="30.5,1041.0" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路5：把当前数组的第一个数，在剩余数组的全排列组合的任意位置出现</String>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="8" Position="32.0,1101.2" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路6：将数组中的下一个数，插入到已经排好的序列中</String>
+      </Note>
+      <Note Width="550.781" FontSize="10" ID="9" Position="239.1,372.3" Level="1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">8,50</FormatRange>
+            <FormatRange Italic="Yes">67,70</FormatRange>
+            <FormatRange Italic="Yes">146,20</FormatRange>
+            <FormatRange Italic="Yes">175,10</FormatRange>
+            <FormatRange Italic="Yes">194,10</FormatRange>
+            <FormatRange Italic="Yes">213,25</FormatRange>
+            <FormatRange Italic="Yes">247,35</FormatRange>
+            <FormatRange Italic="Yes">291,18</FormatRange>
+            <FormatRange Italic="Yes">318,25</FormatRange>
+            <FormatRange Italic="Yes">352,32</FormatRange>
+            <FormatRange Italic="Yes">393,16</FormatRange>
+            <FormatRange Italic="Yes">418,10</FormatRange>
+            <FormatRange Italic="Yes">437,29</FormatRange>
+            <FormatRange Italic="Yes">475,27</FormatRange>
+            <FormatRange Italic="Yes">511,30</FormatRange>
+            <FormatRange Italic="Yes">550,33</FormatRange>
+            <FormatRange Italic="Yes">592,44</FormatRange>
+            <FormatRange Italic="Yes">645,31</FormatRange>
+            <FormatRange Italic="Yes">685,23</FormatRange>
+            <FormatRange Italic="Yes">717,26</FormatRange>
+            <FormatRange Italic="Yes">752,12</FormatRange>
+            <FormatRange Italic="Yes">775,53</FormatRange>
+            <FormatRange Italic="Yes">837,20</FormatRange>
+            <FormatRange Italic="Yes">866,10</FormatRange>
+            <FormatRange Italic="Yes">885,22</FormatRange>
+            <FormatRange Italic="Yes">916,18</FormatRange>
+            <FormatRange Italic="Yes">943,24</FormatRange>
+            <FormatRange Italic="Yes">976,35</FormatRange>
+            <FormatRange Italic="Yes">1020,16</FormatRange>
+            <FormatRange Italic="Yes">1046,18</FormatRange>
+            <FormatRange Italic="Yes">1073,34</FormatRange>
+            <FormatRange Italic="Yes">1116,32</FormatRange>
+            <FormatRange Italic="Yes">1157,49</FormatRange>
+            <FormatRange Italic="Yes">1215,27</FormatRange>
+            <FormatRange Italic="Yes">1251,18</FormatRange>
+            <FormatRange Italic="Yes">1278,49</FormatRange>
+            <FormatRange Italic="Yes">1349,14</FormatRange>
+            <FormatRange Italic="Yes">1372,12</FormatRange>
+            <FormatRange Italic="Yes">1395,9</FormatRange>
+            <FormatRange Italic="Yes">1413,54</FormatRange>
+            <FormatRange Italic="Yes">1476,43</FormatRange>
+            <FormatRange Italic="Yes">1530,23</FormatRange>
+            <FormatRange Italic="Yes">1562,107</FormatRange>
+            <FormatRange Italic="Yes">1680,26</FormatRange>
+            <FormatRange Italic="Yes">1715,111</FormatRange>
+            <FormatRange Italic="Yes">1837,32</FormatRange>
+            <FormatRange Bold="Yes">1878,6</FormatRange>
+            <FormatRange Bold="Yes">1885,6</FormatRange>
+            <FormatRange Bold="Yes">1892,6</FormatRange>
+            <FormatRange Bold="Yes">1962,3</FormatRange>
+            <FormatRange Bold="Yes">1968,2</FormatRange>
+            <FormatRange Bold="Yes">1973,3</FormatRange>
+            <FormatRange Bold="Yes">1979,2</FormatRange>
+            <FormatRange Bold="Yes">1982,5</FormatRange>
+            <FormatRange Bold="Yes">1988,3</FormatRange>
+         </Formatting>
+         <String>        # 递归，第一层有n种选择，第二层n-1种选择，第n层一种选择，用一个set存储本次选择已保存的数字
+        # 排列递归：全排列 n!  每次拷贝结果数组：n  ∴time:O(n*n!)  space:O(n)  choose n + 系统栈 n
+        # length = len(nums)
+        # res = []
+        # tmp = []
+        # choose = [False]*length
+        # def dfs(level,length,choose,tmp):
+        #     # terminator
+        #     if level == length:
+        #         res.append(tmp.copy())
+        #         return
+        #     # se
+        #     for i in range(length):
+        #         if not choose[i]:
+        #             choose[i] = True
+        #             tmp.append(nums[i])
+        #             dfs(level+1,length,choose,tmp)
+        #             choose[i] = False
+        #             tmp.pop()
+        # dfs(0,length,choose,tmp)
+        # return res
+
+
+        # 递归 + 剪枝，不使用额外空间，将已选择的放左边，未选择的放右边，space:O(n) -> O(1)
+        # length = len(nums)
+        # res = []
+        # def recursion(curr):
+        #     # terminator
+        #     if curr == length:
+        #         res.append(nums[:]) # 浅拷贝
+        #         return
+
+        #     # drill down
+        #     for i in range(curr,length):
+        #         # 交换 curr 和 i，让已选择的在左边
+        #         nums[i],nums[curr] = nums[curr],nums[i]
+        #         recursion(curr+1)
+        #         # 撤销交换操作
+        #         nums[i],nums[curr] = nums[curr],nums[i]
+            
+        # recursion(0)
+        # return res
+
+
+        # 调用库函数解决
+        # return list(map(list, itertools.permutations(nums)))
+        # return list(itertools.permutations(nums))
+
+
+        # 将任何一个数作为第一个数，然后递归剩余数组
+        # return nums and [[n] + p for i,n in enumerate(nums) for p in self.permute(nums[:i] + nums[i+1:])] or [[]]
+
+
+        # 把当前数组中的第一个数，在剩余数组的任意位置递归
+        # return nums and [p[:i] + [nums[0]] + p[i:] for p in self.permute(nums[1:]) for i in range(len(nums))] or [[]]
+
+
+        # 使用reduce，将数组中的下一个数，插入到已经建好的排列中
+        return reduce(lambda P, n: [p[:i] + [n] + p[i:]
+                                    for p in P for i in range(len(p)+1)],
+                    nums, [[]])</String>
+      </Note>
+      <Note Width="114.417" FontSize="12" ID="5" Position="36.7,912.1" Shadow="Yes">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>思路3：itertools.permutations(iterable)</String>
+      </Note>
+      <Note Width="77.2461" FontSize="12" ID="11" Position="833.6,122.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Link="https://leetcode-cn.com/problems/permutations-ii/">0,10</FormatRange>
+         </Formatting>
+         <String>47. 全排列 II</String>
+      </Note>
+      <Note Width="375.781" ID="12" Position="835.2,147.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+         </Appearance>
+         <ImageData Type="png" Name="">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</ImageData>
+      </Note>
+      <Note Width="274.219" FontSize="12" ID="13" Position="836.7,447.7" Level="1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">32,12</FormatRange>
+            <FormatRange Bold="Yes">45,67</FormatRange>
+            <FormatRange Bold="Yes">113,14</FormatRange>
+            <FormatRange Bold="Yes">128,51</FormatRange>
+            <FormatRange Bold="Yes">180,12</FormatRange>
+         </Formatting>
+         <String>思路：考虑对重复部分的数字进行剪枝
+首先对原数组排序，方便剪枝
+考虑什么情况下会重复呢？
+那就是这次选了跟上次一样的数（上次的数撤销不选），那么对于剩余的数组（这次和上次剩余数组可以当作是一致的）而言，这次重复了上次选择过程
+那么，去重的条件可以归结为：
+if vis[i] or nums[i] == nums[i-1] and not vis[i-1]:
+    continue</String>
+      </Note>
+      <Note Width="473.438" FontSize="10" ID="14" Position="1124.2,397.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,5</FormatRange>
+            <FormatRange Bold="Yes">20,3</FormatRange>
+            <FormatRange Bold="Yes">38,4</FormatRange>
+            <FormatRange Bold="Yes">55,3</FormatRange>
+            <FormatRange Bold="Yes">74,3</FormatRange>
+            <FormatRange Italic="Yes">89,21</FormatRange>
+            <FormatRange Italic="Yes">119,7</FormatRange>
+            <FormatRange Italic="Yes">135,42</FormatRange>
+            <FormatRange Italic="Yes">186,44</FormatRange>
+            <FormatRange Italic="Yes">239,19</FormatRange>
+            <FormatRange Italic="Yes">269,31</FormatRange>
+            <FormatRange Italic="Yes">329,8</FormatRange>
+            <FormatRange Bold="Yes">362,3</FormatRange>
+            <FormatRange Bold="Yes">387,5</FormatRange>
+            <FormatRange Italic="Yes">409,7</FormatRange>
+            <FormatRange Bold="Yes">425,3</FormatRange>
+            <FormatRange Italic="Yes">468,12</FormatRange>
+            <FormatRange Bold="Yes">493,2</FormatRange>
+            <FormatRange Bold="Yes">568,6</FormatRange>
+            <FormatRange Italic="Yes">587,23</FormatRange>
+            <FormatRange Bold="Yes">623,3</FormatRange>
+            <FormatRange Bold="Yes">629,2</FormatRange>
+            <FormatRange Bold="Yes">632,5</FormatRange>
+            <FormatRange Italic="Yes">663,19</FormatRange>
+            <FormatRange Bold="Yes">699,2</FormatRange>
+            <FormatRange Bold="Yes">709,2</FormatRange>
+            <FormatRange Bold="Yes">718,3</FormatRange>
+            <FormatRange Bold="Yes">743,3</FormatRange>
+            <FormatRange Bold="Yes">747,3</FormatRange>
+            <FormatRange Bold="Yes">781,8</FormatRange>
+            <FormatRange Italic="Yes">806,23</FormatRange>
+            <FormatRange Bold="Yes">855,4</FormatRange>
+            <FormatRange Italic="Yes">912,12</FormatRange>
+            <FormatRange Italic="Yes">985,22</FormatRange>
+            <FormatRange Bold="Yes">1033,5</FormatRange>
+         </Formatting>
+         <String>class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        # 在原来的基础上，考虑对重复的部分 剪枝
+        # 如何剪枝？
+        # 对于选择第i个数，如果这次选择的数跟上一次的一模一样（上一次的已经撤销不选了），
+        # 那么也就相当于重复了上一次选择的过程（对于剩余的数组，本次和上次剩余数组是一样的），
+        # 这是没有必要的，所以这部分需要略过
+
+
+        # 1.为了保证不选到重复数，我们先对数组排序，这样容易去判断
+        nums.sort()
+        # 2.init
+        res,length = [],len(nums)
+        vis = [False]*length
+        # 3.dfs
+        def dfs(level,length,vis,tmp):
+            # terminator
+            if level == length:
+                res.append(tmp.copy())
+                return
+            # prepare recursion    
+            for i in range(length):
+                # 如果已经访问过，或者数字重复，剪枝
+                if vis[i] or i > 0 and nums[i] == nums[i-1] and not vis[i-1]:
+                    continue
+                # process current logic
+                vis[i] = True
+                tmp.append(nums[i])
+                # drill down
+                dfs(level+1,length,vis,tmp)
+                # revert current logic
+                vis[i] = False
+                tmp.pop()</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes>
+      <Shape Width="778.906" Faded="No" Height="1057.81" Sticky="Yes" ID="0" Position="23.4,112.9" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+      <Shape Width="788.281" Faded="No" Height="727.344" Sticky="Yes" ID="10" Position="823.4,113.3" Shadow="No">
+         <Appearance>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+      </Shape>
+   </BackgroundShapes>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="FA95F10F-A2C4-4B98-AEFA-B09DA43A90DC" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="B5CF4A2B-538C-400C-B21D-E886027E390A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="5F345E59-075F-41E3-9749-E9A0F89009B5" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="17FE3110-8F3D-41EA-83F0-680C0AEF7FB0" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="921C8D31-C6FC-4F49-8DA3-0D8D287DCC7A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="111314A2-0B1C-4FCB-A2AF-A42CAFEE3717" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="F65C15D0-D042-4E72-914C-63A74D5C206B" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>0.996078 0.964706 0.650980</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+      <LeftToRight>Yes</LeftToRight>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
