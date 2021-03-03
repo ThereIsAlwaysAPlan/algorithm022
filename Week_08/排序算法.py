@@ -142,17 +142,19 @@ def radix_sort(arr):
     import collections
     # 获取数组中最大的数，并计算位数
     ma_digit = len(str(max(arr)))
+    mod = 10 # 高位取余
     dev = 1 # 除数
     # 基数比较，并排序
     for _ in range(ma_digit):
         res = [[] for _ in range(10)]
         for num in arr:
             # 计算每个数的当前基数
-            radix = num % 10 if not _ else num // dev
+            radix = num % mod // dev
             # 挂到对应字典的下方
             res[radix].append(num)
-        # 除数乘10
+        # 除数,取余乘10
         dev *= 10
+        mod *= 10
         # 将排序后的res依次写入原数组
         start,end = 0,0
         for i in range(10):
@@ -221,7 +223,7 @@ if __name__ == "__main__":
     # print('堆排序：{}'.format(heapq_sort(arr[:])))
     # print('归并排序：{}'.format(merge_sort(arr[:])))
 
-    # print('基数排序：{}'.format(radix_sort(arr[:])))
+    print('基数排序：{}'.format(radix_sort(arr[:])))
     # print('计数排序：{}'.format(count_sort(arr[:])))
     print('桶排序：{}'.format(bucket_sort(arr[:])))
 
